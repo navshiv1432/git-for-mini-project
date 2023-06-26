@@ -1,0 +1,162 @@
+@media screen and (min-width: 768px) {
+  .item-details-cont1 {
+    display: none;
+  }
+  .item-img3 {
+    width: 136px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .cart-item-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .item-details-cont {
+    display: flex;
+    flex-direction: row;
+  }
+  .item-quantity-cost-cont {
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+  }
+
+  .item-name {
+    color: #183b56;
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: flex;
+    width: 174px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-left: 30px;
+  }
+  .counter-btn {
+    display: flex;
+    height: 18px;
+    align-items: flex-start;
+    border-radius: 2.25px;
+  }
+  .quantity {
+    color: var(--light-blue-gray-600, #475569);
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .rupee-icon {
+    color: #ffa412;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 19px;
+  }
+  .item-cost {
+    color: #ffa412;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item-img3 {
+    width: 136px;
+    height: 100px;
+    flex-shrink: 0;
+
+    border-radius: 8px;
+  }
+
+  .cart-item-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .item-details-cont {
+    display: none;
+  }
+  .item-details-cont1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  .item-quantity-cost-cont {
+    display: none;
+  }
+  .item-quantity-cost-cont-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+  }
+  .item-quantity-cost-cont1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-self: flex-start;
+    margin-left: 25px;
+    margin-top: -25px;
+  }
+
+  .item-name {
+    color: #183b56;
+    font-size: 14px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    display: flex;
+    width: 174px;
+    flex-direction: row;
+    flex-shrink: 0;
+    margin-left: 30px;
+  }
+  .qua-inc-dec {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    margin-top: -20px;
+  }
+  .counter-btn {
+    display: flex;
+    height: 18px;
+    align-items: flex-start;
+
+    border-radius: 2.25px;
+  }
+  .quantity {
+    color: var(--light-blue-gray-600, #475569);
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  .rupee-icon {
+    color: #ffa412;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 19px;
+  }
+  .item-cost {
+    color: #ffa412;
+    font-size: 16px;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}

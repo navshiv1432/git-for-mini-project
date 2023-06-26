@@ -1,0 +1,268 @@
+@media screen and (min-width: 768px) {
+  .main-cont-cart {
+    padding-top: 75px;
+  }
+  .head-cont {
+    margin-top: 500px;
+    padding-top: 100px;
+  }
+  .cart-items-li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .cart-items-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1110px;
+    height: 100%;
+    flex-shrink: 0;
+    border: 1px solid var(--main-hover-light, rgba(11, 105, 255, 0.1));
+    background: #f9fbfe;
+  }
+  .cart-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .li-cart-item-title {
+    color: var(--light-blue-gray-600, #475569);
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-left: 100px;
+  }
+  .li-cart-item-title1 {
+    color: var(--light-blue-gray-600, #475569);
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-right: 50px;
+  }
+  .cart-summary-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .order-total-text {
+    color: var(--basic-900, #3e4c59);
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 8px;
+  }
+  .cart-total-cost-cont {
+    display: flex;
+    flex-direction: row;
+  }
+  .Rupee-icon {
+    margin-top: 27px;
+    color: var(--basic-900, #3e4c59);
+    text-align: right;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 10px;
+  }
+  .cart-total-cost {
+    color: var(--basic-900, #3e4c59);
+    text-align: right;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 5px;
+  }
+  .cart-default-button {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    border-radius: 8px;
+    background: #f7931e;
+    margin-bottom: 5px;
+  }
+  .main-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .order-placed-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #22c55e;
+  }
+  .card-order-heading {
+    color: var(--light-blue-gray-800, #1e293b);
+    text-align: center;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .cars-order-description {
+    color: var(--light-blue-gray-500, #64748b);
+    text-align: center;
+    font-size: 16px;
+    font-family: DM Sans;
+    line-height: 24px;
+  }
+  .order-default-button {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    border-radius: 8px;
+    background: #f7931e;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-cont-cart {
+    padding-top: 75px;
+  }
+  .cart-route {
+    width: 360px;
+    height: 732px;
+  }
+  .head-cont {
+    margin-top: 500px;
+    padding-top: 100px;
+  }
+  .cart-items-li {
+    display: none;
+  }
+  .cart-items-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 360px;
+    height: 100%;
+    flex-shrink: 0;
+    border: 1px solid var(--main-hover-light, rgba(11, 105, 255, 0.1));
+    background: #f9fbfe;
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+  .cart-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .li-cart-item-title {
+    color: var(--light-blue-gray-600, #475569);
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-left: 100px;
+  }
+  .li-cart-item-title1 {
+    color: var(--light-blue-gray-600, #475569);
+    font-size: 20px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-right: 50px;
+  }
+  .cart-summary-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .order-total-text {
+    color: var(--basic-900, #3e4c59);
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 32px;
+    padding-top: 8px;
+  }
+  .cart-total-cost-cont {
+    display: flex;
+    flex-direction: row;
+  }
+  .Rupee-icon {
+    margin-top: 27px;
+    color: var(--basic-900, #3e4c59);
+    text-align: right;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 32px;
+    margin-left: 10px;
+  }
+  .cart-total-cost {
+    color: var(--basic-900, #3e4c59);
+    text-align: right;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 32px;
+    padding-bottom: 5px;
+  }
+  .cart-default-button {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    border-radius: 8px;
+    background: #f7931e;
+    margin-bottom: 5px;
+  }
+  .main-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .order-placed-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    color: #22c55e;
+  }
+  .card-order-heading {
+    color: var(--light-blue-gray-800, #1e293b);
+    text-align: center;
+    font-size: 24px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 32px;
+  }
+  .cars-order-description {
+    color: var(--light-blue-gray-500, #64748b);
+    text-align: center;
+    font-size: 16px;
+    font-family: DM Sans;
+    line-height: 24px;
+  }
+  .order-default-button {
+    display: flex;
+    padding: 8px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    border-radius: 8px;
+    background: #f7931e;
+  }
+}

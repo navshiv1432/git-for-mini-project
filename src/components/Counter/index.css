@@ -1,0 +1,22 @@
+.counter-cont {
+  display: flex;
+  flex-direction: row;
+}
+.counter-btn {
+  margin-top: 20px;
+  display: flex;
+
+  border-radius: 2.25px;
+  color: #475569;
+  height: 18px;
+}
+.quantity {
+  color: var(--light-blue-gray-600, #475569);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
