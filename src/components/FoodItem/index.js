@@ -26,7 +26,7 @@ const FoodItem = props => {
         const quantity = value.getQuantity(id)
 
         return (
-          <li className="food-item-li" testid="foodItem">
+          <li className="food-item-li" data-testid="foodItem">
             <img src={imageUrl} className="food-image" alt={name} />
 
             <div className="food-content-cont">

@@ -55,7 +55,6 @@ class Home extends Component {
     activePage: 1,
     allRestaurants: [],
     searchInput: '',
-    totalPages: 4,
     // loadFooter: false,
   }
 
@@ -198,7 +197,7 @@ class Home extends Component {
   // carousel loader
 
   carouselDisplayLoading = () => (
-    <div testid="restaurants-offers-loader">
+    <div data-testid="restaurants-offers-loader">
       <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </div>
   )
@@ -206,7 +205,7 @@ class Home extends Component {
   // restaurants loader
 
   restaurantsDisplayLoading = () => (
-    <div testid="restaurants-list-loader" className="loader">
+    <div data-testid="restaurants-list-loader" className="loader">
       <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" />
     </div>
   )
@@ -364,14 +363,14 @@ class Home extends Component {
   // rendering the home route in  render method
 
   render() {
-    const {activePage, totalPages} = this.state
+    const {activePage} = this.state
     return (
       <>
         <div className="main-cont">
           <Header />
           <div className="carousel-cont">
             {this.onRenderDisplayCarousel()}
-            <div testid="active-page-number" className="dis-cont">
+            <div className="dis-cont">
               {this.popularRestaurantsView()}
 
               {this.onRenderDisplayRestaurants()}
@@ -381,28 +380,20 @@ class Home extends Component {
                 type="button"
                 className="dec-btn"
                 onClick={this.onDecrementIt}
-                testid="pagination-left-button"
+                data-testid="pagination-left-button"
               >
                 <RiArrowDropLeftLine size={20} />
               </button>
 
-              <p testid="active-page-number" className="page-num">
-                <p>{activePage}</p>
-
-                <span
-                  className="page-num"
-                  style={{marginLeft: '5px', marginRight: '5px'}}
-                >
-                  of
-                </span>
-                <p className="page-num">{totalPages}</p>
+              <p data-testid="active-page-number" className="page-num">
+                {activePage}
               </p>
 
               <button
                 type="button"
                 className="inc-btn"
                 onClick={this.onIncrementIt}
-                testid="pagination-right-button"
+                data-testid="pagination-right-button"
               >
                 <RiArrowDropRightLine size={20} />
               </button>

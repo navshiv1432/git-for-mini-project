@@ -91,7 +91,7 @@ const Cart = () => {
             <div className="cart-total-cost-cont">
               <BiRupee className="Rupee-icon" />
 
-              <p className="cart-total-cost" testid="total-price">
+              <p className="cart-total-cost" data-testid="total-price">
                 {getTotalPrice(cartItems)}.00
               </p>
             </div>
